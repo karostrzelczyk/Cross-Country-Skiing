@@ -18,4 +18,10 @@ SELECT *
 FROM winner_sprintcrystalglobes wss
 WHERE wl.ID = wss.ID AND wl.NAME_1 = wss.NAME_1);
 
+-- ile reprezentantów posiada każda narodowość 
+SELECT COUNTRY, count(COUNTRY) AS NUMBER_OF_PLAYERS
+FROM TEAM
+GROUP BY COUNTRY
+ORDER BY NUMBER_OF_PLAYERS DESC
+
 
