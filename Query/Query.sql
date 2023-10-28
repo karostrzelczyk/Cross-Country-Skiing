@@ -24,7 +24,7 @@ FROM TEAM
 GROUP BY COUNTRY
 ORDER BY NUMBER_OF_PLAYERS DESC
 
--- ile medali IO zdobyli sportowcy patrząc pod względem narodowości 
+-- ile medali IO zdobyli sportowcy patrząc pod względem narodowości (zmieniając c.TYPE_OF_COMPETITION na 'MS' dowiemy się ile medali mistrzostw świata zdobyli sportowcy lub 'PS' ile zwyciestw w Pucharze Świata 
 SELECT b.COUNTRY, count(b.country) AS NUMBERS_OF_MEDALS
 FROM RESULTS a
 JOIN ATHLETS b ON b.ID=a.ID_ATHLETS
