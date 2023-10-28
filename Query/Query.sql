@@ -33,5 +33,10 @@ WHERE a.PLACE='FIRST' AND c.TYPE_OF_COMPETITION='IO'
 GROUP BY b.COUNTRY 
 ORDER BY NUMBERS_OF_MEDALS DESC
 
+--korzystając z widoku MostWinsByCountry, pokaż ile dany kraj ma najwięcej zwycięstw i kto z jego reprezentantów najwięcej osiągnął zwycięstw
+SELECT *
+FROM MostWinsByCountry
+ORDER BY [Total Country Wins] DESC
+
 
 
