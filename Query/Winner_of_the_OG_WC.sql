@@ -7,5 +7,5 @@ FROM dbo.COMPETITION AS a
   WHERE  (a.TYPE_OF_COMPETITION = 'MS') AND (b.ID_ATHLETS IS NOT NULL) AND (b.PLACE = 'FIRST') AND EXISTS
                       (SELECT 1 AS Expr1
                        FROM  dbo.COMPETITION AS a INNER JOIN
-                            dbo.RESULTS AS b ON a.ID = b.ID_COMPETITION
-                       WHERE   (a.TYPE_OF_COMPETITION = 'IO'))
+                             dbo.RESULTS AS b ON a.ID = b.ID_COMPETITION
+                       WHERE (a.TYPE_OF_COMPETITION = 'IO'))
