@@ -1,4 +1,4 @@
--- ranking zawodniczek  (ile i jakich zdobyly nagród) 
+-- ranking zawodniczek  (ile i jakie zdobyly nagród) 
 SELECT a.NAME_1, a.ID, b.PRIZE, count(b.PLACE) as winner
 FROM ATHLETS a
 LEFT JOIN SEASONWINNER b ON a.ID = b.ID_ATHLETS
