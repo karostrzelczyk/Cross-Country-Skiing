@@ -1,0 +1,666 @@
+ID,DATE,TYPE_OF_COMPETITION,CITY,COUNTRY,DISTANCE
+1,2005-10-22 00:00:00,PS,Düsseldorf,GER,SP        
+2,2005-10-23 00:00:00,PS,Düsseldorf,GER,TSP       
+3,2005-11-19 00:00:00,PS,Beitostolen,NOR,10k       
+4,2005-11-20 00:00:00,PS,Beitostolen,NOR,TE        
+5,2005-11-26 00:00:00,PS,Ruka,FIN,10k       
+6,2005-11-27 00:00:00,PS,Ruka,FIN,10k       
+7,2005-12-10 00:00:00,PS,Vernon,FR,15k       
+8,2005-12-11 00:00:00,PS,Vernon,FR,SP        
+9,2005-12-15 00:00:00,PS,Canmore,CAN,10k       
+10,2005-12-17 00:00:00,PS,Canmore,CAN,15k       
+11,2005-12-18 00:00:00,PS,Canmore,CAN,TSP       
+12,2005-12-30 00:00:00,PS,Nové Mìsto na Moravì,CZE,SP        
+13,2005-12-31 00:00:00,PS,Nové Mìsto na Moravì,CZE,10k       
+14,2006-01-07 00:00:00,PS,Otepää,EST,10k       
+15,2006-01-08 00:00:00,PS,Otepää,EST,SP        
+16,2006-01-14 00:00:00,PS,Val di Fiemme,ITA,15k       
+17,2006-01-15 00:00:00,PS,Val di Fiemme,ITA,TE        
+18,2006-01-21 00:00:00,PS,Oberstdorf,GER,15k       
+19,2006-01-22 00:00:00,PS,Oberstdorf,GER,SP        
+20,2006-02-04 00:00:00,PS,Davos,CHE,SP        
+21,2006-02-05 00:00:00,PS,Davos,CHE,10k       
+22,2006-03-07 00:00:00,PS,Borlänge,SWE,SP        
+23,2006-03-08 00:00:00,PS,Falun,SWE,10k       
+24,2006-03-09 00:00:00,PS,Drammen,NOR,SP        
+25,2006-03-11 00:00:00,PS,Oslo,NOR,30k       
+26,2006-03-15 00:00:00,PS,Changchun,CH,SP        
+27,2006-03-18 00:00:00,PS,Sapporo,JPN,TSP       
+28,2006-03-19 00:00:00,PS,Sapporo,JPN,15k       
+29,2006-10-28 00:00:00,PS,Düsseldorf,GER,SP        
+30,2006-10-29 00:00:00,PS,Düsseldorf,GER,TSP       
+31,2006-11-18 00:00:00,PS,Gällivare,SWE,10k       
+32,2006-11-19 00:00:00,PS,Gällivare,SWE,TE        
+33,2006-11-25 00:00:00,PS,Ruka,FIN,SP        
+34,2006-11-26 00:00:00,PS,Ruka,FIN,10k       
+35,2006-12-08 00:00:00,PS,Cogne/Valle d’Aosta,ITA,SP        
+36,2006-12-10 00:00:00,PS,Cogne/Valle d’Aosta,ITA,15k       
+37,2006-12-13 00:00:00,PS,Cogne,ITA,10k       
+38,2006-12-16 00:00:00,PS,La Clusaz,FR,15k       
+39,2006-12-17 00:00:00,PS,La Clusaz,FR,TE        
+40,2007-01-20 00:00:00,PS,Rybiñsk,RUS,15k       
+41,2007-01-21 00:00:00,PS,Rybiñsk,RUS,TS        
+42,2007-01-27 00:00:00,PS,Otepää,EST,10k       
+43,2007-01-28 00:00:00,PS,Otepää,EST,SP        
+44,2007-02-03 00:00:00,PS,Davos,CHE,10k       
+45,2007-02-04 00:00:00,PS,Davos,CHE,TE        
+46,2007-02-15 00:00:00,PS,Changchun,CH,SP        
+47,2007-02-16 00:00:00,PS,Changchun,CH,10k       
+48,2007-03-10 00:00:00,PS,Lahti,FIN,SP        
+49,2007-03-11 00:00:00,PS,Lahti,FIN,10k       
+50,2007-03-14 00:00:00,PS,Drammen,NOR,SP        
+51,2007-03-17 00:00:00,PS,Oslo,NOR,30k       
+52,2007-03-21 00:00:00,PS,Sztokholm,SWE,SP        
+53,2007-03-24 00:00:00,PS,Falun,SWE,15k       
+54,2007-03-25 00:00:00,PS,Falun,SWE,TE        
+55,2007-10-27 00:00:00,PS,Düsseldorf,GER,SP        
+56,2007-10-28 00:00:00,PS,Düsseldorf,GER,TSP       
+57,2007-11-24 00:00:00,PS,Beitostolen,NOR,10k       
+58,2007-11-25 00:00:00,PS,Beitostolen,NOR,TE        
+59,2007-12-01 00:00:00,PS,Ruka,FIN,SP        
+60,2007-12-02 00:00:00,PS,Ruka,FIN,10k       
+61,2007-12-08 00:00:00,PS,Davos,CHE,10k       
+62,2007-12-09 00:00:00,PS,Davos,CHE,TE        
+63,2007-12-15 00:00:00,PS,Rybiñsk,RUS,15k       
+64,2007-12-16 00:00:00,PS,Rybiñsk,RUS,SP        
+65,2008-01-22 00:00:00,PS,Canmore,CAN,15k       
+66,2008-01-23 00:00:00,PS,Canmore,CAN,SP        
+67,2008-01-25 00:00:00,PS,Canmore,CAN,10k       
+68,2008-01-26 00:00:00,PS,Canmore,CAN,SP        
+69,2008-02-09 00:00:00,PS,Otepää,EST,10k       
+70,2008-02-10 00:00:00,PS,Otepää,EST,SP        
+71,2008-02-16 00:00:00,PS,Liberec,CZE,7,6k      
+72,2008-02-17 00:00:00,PS,Liberec,CZE,TSP       
+73,2008-02-23 00:00:00,PS,Falun,SWE,15k       
+74,2008-02-24 00:00:00,PS,Falun,SWE,TE        
+75,2008-02-27 00:00:00,PS,Sztokholm,SWE,SP        
+76,2008-03-01 00:00:00,PS,Lahti,FIN,SP        
+77,2008-03-02 00:00:00,PS,Lahti,FIN,10k       
+78,2008-03-05 00:00:00,PS,Drammen,NOR,SP        
+79,2008-03-08 00:00:00,PS,Oslo,NOR,30k       
+80,2008-03-14 00:00:00,PS,Bormio,ITA,SP        
+81,2008-03-15 00:00:00,PS,Bormio,ITA,10k       
+82,2008-03-16 00:00:00,PS,Bormio,ITA,10k       
+83,2008-11-22 00:00:00,PS,Gällivare,SWE,10k       
+84,2008-11-23 00:00:00,PS,Gällivare,SWE,TE        
+85,2008-11-29 00:00:00,PS,Ruka,FIN,SP        
+86,2008-11-30 00:00:00,PS,Ruka,FIN,10k       
+87,2008-12-06 00:00:00,PS,La Clusaz,FR,15k       
+88,2008-12-07 00:00:00,PS,La Clusaz,FR,TE        
+89,2008-12-13 00:00:00,PS,Davos,CHE,10k       
+90,2008-12-14 00:00:00,PS,Davos,CHE,SP        
+91,2008-12-20 00:00:00,PS,Düsseldorf,GER,SP        
+92,2008-12-21 00:00:00,PS,Düsseldorf,GER,TSP       
+93,,,,0,TDS       
+94,2009-01-16 00:00:00,PS,Whistler,CAN,SP        
+95,2009-01-17 00:00:00,PS,Whistler,CAN,15k       
+96,2009-01-18 00:00:00,PS,Whistler,CAN,TSP       
+97,2009-01-24 00:00:00,PS,Otepää,EST,10k       
+98,2009-01-25 00:00:00,PS,Otepää,EST,SP        
+99,2009-01-30 00:00:00,PS,Rybiñsk,RUS,10k       
+100,2009-01-31 00:00:00,PS,Rybiñsk,RUS,SP        
+101,2009-02-01 00:00:00,PS,Rybiñsk,RUS,15k       
+102,2009-02-13 00:00:00,PS,Valdidentro,ITA,SP        
+103,2009-02-14 00:00:00,PS,Valdidentro,ITA,10k       
+104,2009-03-07 00:00:00,PS,Lahti,FIN,SP        
+105,2009-03-08 00:00:00,PS,Lahti,FIN,10k       
+106,2009-03-12 00:00:00,PS,Trondheim,NOR,SP        
+107,2009-03-14 00:00:00,PS,Trondheim,NOR,30k       
+108,2009-03-18 00:00:00,PS,Sztokholm,SWE,SP        
+109,2009-03-20 00:00:00,PS,Falun,SWE,SP        
+110,2009-03-21 00:00:00,PS,Falun,SWE,10k       
+111,2009-11-21 00:00:00,PS,Beitostolen,NOR,10k       
+112,2009-11-22 00:00:00,PS,Beitostolen,NOR,TE        
+113,2009-11-28 00:00:00,PS,Ruka,FIN,SP        
+114,2009-11-29 00:00:00,PS,Ruka,FIN,10k       
+115,2009-12-05 00:00:00,PS,Düsseldorf,GER,SP        
+116,2009-12-06 00:00:00,PS,Düsseldorf,GER,TSP       
+117,2009-12-12 00:00:00,PS,Davos,CHE,10k       
+118,2009-12-13 00:00:00,PS,Davos,CHE,SP        
+119,2009-12-19 00:00:00,PS,Rogla,SLO,SP        
+120,2009-12-20 00:00:00,PS,Rogla,SLO,15k       
+121,,,,0,TDS       
+122,2010-01-16 00:00:00,PS,Otepää,EST,10k       
+123,2010-01-17 00:00:00,PS,Otepää,EST,SP        
+124,2010-01-22 00:00:00,PS,Rybiñsk,RUS,SP        
+125,2010-01-23 00:00:00,PS,Rybiñsk,RUS,15k       
+126,2010-01-24 00:00:00,PS,Rybiñsk,RUS,TSP       
+127,2010-02-05 00:00:00,PS,Canmore,CAN,10k       
+128,2010-02-06 00:00:00,PS,Canmore,CAN,SP        
+129,2010-03-06 00:00:00,PS,Lahti,FIN,15k       
+130,2010-03-07 00:00:00,PS,Lahti,FIN,TE        
+131,2010-03-11 00:00:00,PS,Drammen,NOR,SP        
+132,2010-03-13 00:00:00,PS,Oslo,NOR,30k       
+133,2010-03-14 00:00:00,PS,Oslo,NOR,SP        
+134,2010-03-17 00:00:00,PS,Sztokholm,SWE,SP        
+135,2010-03-19 00:00:00,PS,Falun,SWE,SP        
+136,2010-03-20 00:00:00,PS,Falun,SWE,10k       
+137,2010-03-21 00:00:00,PS,Falun,SWE,10k       
+138,2010-11-20 00:00:00,PS,Gällivare,SWE,10k       
+139,2010-11-21 00:00:00,PS,Gällivare,SWE,TE        
+140,2010-11-26 00:00:00,PS,Ruka,FIN,SP        
+141,2010-11-27 00:00:00,PS,Ruka,FIN,5k        
+142,2010-11-28 00:00:00,PS,Ruka,FIN,10k       
+143,2010-12-04 00:00:00,PS,Düsseldorf,GER,SP        
+144,2010-12-05 00:00:00,PS,Düsseldorf,GER,TSP       
+145,2010-12-11 00:00:00,PS,Davos,CHE,10k       
+146,2010-12-12 00:00:00,PS,Davos,CHE,SP        
+147,2010-12-18 00:00:00,PS,La Clusaz,FR,15k       
+148,2010-12-19 00:00:00,PS,La Clusaz,FR,TE        
+149,2010-12-31 00:00:00,PS,Oberhof,GER,SP        
+150,2011-01-01 00:00:00,PS,Oberhof,GER,10k       
+151,2011-01-02 00:00:00,PS,Oberstdorf,GER,SP        
+152,2011-01-03 00:00:00,PS,Oberstdorf,GER,10k       
+153,2011-01-05 00:00:00,PS,Toblach,ITA,SP        
+154,2011-01-06 00:00:00,PS,Toblach,ITA,15k       
+155,2011-01-08 00:00:00,PS,Val di Fiemme,ITA,10k       
+156,2011-01-09 00:00:00,PS,Val di Fiemme,ITA,10k       
+157,,,,0,TDS       
+158,2011-01-15 00:00:00,PS,Liberec,CZE,SP        
+159,2011-01-16 00:00:00,PS,Liberec,CZE,TSP       
+160,2011-01-22 00:00:00,PS,Otepää,EST,10k       
+161,2011-01-23 00:00:00,PS,Otepää,EST,SP        
+162,2011-02-04 00:00:00,PS,Rybiñsk,RUS,10k       
+163,2011-02-05 00:00:00,PS,Rybiñsk,RUS,SP        
+164,2011-02-06 00:00:00,PS,Rybiñsk,RUS,TE        
+165,2011-02-19 00:00:00,PS,Drammen,NOR,10k       
+166,2011-02-20 00:00:00,PS,Drammen,NOR,SP        
+167,2011-03-12 00:00:00,PS,Lahti,FIN,10k       
+168,2011-03-13 00:00:00,PS,Lahti,FIN,SP        
+169,2011-03-16 00:00:00,PS,Sztokholm,SWE,SP        
+170,2011-03-18 00:00:00,PS,Falun,SWE,SP        
+171,2011-03-19 00:00:00,PS,Falun,SWE,10k       
+172,2011-03-20 00:00:00,PS,Falun,SWE,10k       
+173,2011-11-19 00:00:00,PS,Sjusjoen,NOR,10k       
+174,2011-11-20 00:00:00,PS,Sjusjoen,NOR,TE        
+175,2011-11-25 00:00:00,PS,Ruka,FIN,SP        
+176,2011-11-26 00:00:00,PS,Ruka,FIN,5k        
+177,2011-11-27 00:00:00,PS,Ruka,FIN,10k       
+178,2011-12-03 00:00:00,PS,Düsseldorf,GER,SP        
+179,2011-12-04 00:00:00,PS,Düsseldorf,GER,TSP       
+180,2011-12-10 00:00:00,PS,Davos,CHE,15k       
+181,2011-12-11 00:00:00,PS,Davos,CHE,SP        
+182,2011-12-17 00:00:00,PS,Rogla,SLO,10k       
+183,2011-12-18 00:00:00,PS,Rogla,SLO,SP        
+184,2011-12-29 00:00:00,PS,Oberhof,GER,SP        
+185,2011-12-30 00:00:00,PS,Oberhof,GER,10k       
+186,2011-12-31 00:00:00,PS,Oberstdorf,GER,SP        
+187,2012-01-01 00:00:00,PS,Oberstdorf,GER,10k       
+188,2012-01-03 00:00:00,PS,Toblach,ITA,SP        
+189,2012-01-04 00:00:00,PS,Toblach,ITA,SP        
+190,2012-01-05 00:00:00,PS,Toblach,ITA,15k       
+191,2012-01-07 00:00:00,PS,Val di Fiemme,ITA,10k       
+192,2012-01-08 00:00:00,PS,Val di Fiemme,ITA,10k       
+193,,,,0,TDS       
+194,2012-01-14 00:00:00,PS,Mediolan,ITA,SP        
+195,2012-01-15 00:00:00,PS,Mediolan,ITA,TSP       
+196,2012-01-21 00:00:00,PS,Otepää,EST,SP        
+197,2012-01-22 00:00:00,PS,Otepää,EST,10k       
+198,2012-02-02 00:00:00,PS,Moskwa,RUS,SP        
+199,2012-02-04 00:00:00,PS,Rybiñsk,RUS,10k       
+200,2012-02-05 00:00:00,PS,Rybiñsk,RUS,15k       
+201,2012-02-11 00:00:00,PS,Nové Mìsto na Moravì,CZE,15k       
+202,2012-02-12 00:00:00,PS,Nové Mìsto na Moravì,CZE,TE        
+203,2012-02-17 00:00:00,PS,Szklarska Porêba,POL,SP        
+204,2012-02-18 00:00:00,PS,Szklarska Porêba,POL,10k       
+205,2012-03-03 00:00:00,PS,Lahti,FIN,15k       
+206,2012-03-04 00:00:00,PS,Lahti,FIN,SP        
+207,2012-03-07 00:00:00,PS,Drammen,NOR,SP        
+208,2012-03-11 00:00:00,PS,Oslo,NOR,30k       
+209,2012-03-14 00:00:00,PS,Sztokholm,SWE,SP        
+210,2012-03-16 00:00:00,PS,Falun,SWE,SP        
+211,2012-03-17 00:00:00,PS,Falun,SWE,10k       
+212,2012-03-18 00:00:00,PS,Falun,SWE,10k       
+213,2012-11-24 00:00:00,PS,Gällivare,SWE,10k       
+214,2012-11-25 00:00:00,PS,Gällivare,SWE,TE        
+215,2012-11-30 00:00:00,PS,Ruka,FIN,SP        
+216,2012-12-01 00:00:00,PS,Ruka,FIN,5k        
+217,2012-12-02 00:00:00,PS,Ruka,FIN,10k       
+218,2012-12-07 00:00:00,PS,Québec,CAN,TSP       
+219,2012-12-08 00:00:00,PS,Québec,CAN,SP        
+220,2012-12-13 00:00:00,PS,Canmore,CAN,10k       
+221,2012-12-15 00:00:00,PS,Canmore,CAN,SP        
+222,2012-12-16 00:00:00,PS,Canmore,CAN,15k       
+223,2012-12-29 00:00:00,PS,Oberhof,GER,SP        
+224,2012-12-30 00:00:00,PS,Oberhof,GER,10k       
+225,2013-01-01 00:00:00,PS,Val Müstair,CH,SP        
+226,2013-01-03 00:00:00,PS,Toblach,ITA,15k       
+227,2013-01-04 00:00:00,PS,Toblach,ITA,SP        
+228,2013-01-05 00:00:00,PS,Val di Fiemme,ITA,10k       
+229,2013-01-06 00:00:00,PS,Val di Fiemme,ITA,10k       
+230,,,,0,TDS       
+231,2013-01-12 00:00:00,PS,Liberec,CZE,SP        
+232,2013-01-13 00:00:00,PS,Liberec,CZE,TSP       
+233,2013-01-19 00:00:00,PS,La Clusaz,FR,10k       
+234,2013-01-20 00:00:00,PS,La Clusaz,FR,TE        
+235,2013-02-01 00:00:00,PS,Krasnaja Polana,RUS,SP        
+236,2013-02-02 00:00:00,PS,Krasnaja Polana,RUS,15k       
+237,2013-02-03 00:00:00,PS,Krasnaja Polana,RUS,TSP       
+238,2013-02-16 00:00:00,PS,Davos,CHE,SP        
+239,2013-02-17 00:00:00,PS,Davos,CHE,10k       
+240,2013-03-09 00:00:00,PS,Lahti,FIN,SP        
+241,2013-03-10 00:00:00,PS,Lahti,FIN,10k       
+242,2013-03-13 00:00:00,PS,Drammen,NOR,SP        
+243,2013-03-17 00:00:00,PS,Oslo,NOR,30k       
+244,2013-03-20 00:00:00,PS,Sztokholm,SWE,SP        
+245,2013-03-22 00:00:00,PS,Falun,SWE,SP        
+246,2013-03-23 00:00:00,PS,Falun,SWE,10k       
+247,2013-03-24 00:00:00,PS,Falun,SWE,10k       
+248,2013-11-29 00:00:00,PS,Ruka,FIN,SP        
+249,2013-11-30 00:00:00,PS,Ruka,FIN,5k        
+250,2013-12-01 00:00:00,PS,Ruka,FIN,10k       
+251,2013-12-07 00:00:00,PS,Lillehammer,NOR,10k       
+252,2013-12-08 00:00:00,PS,Lillehammer,NOR,TE        
+253,2013-12-14 00:00:00,PS,Davos,CHE,15k       
+254,2013-12-15 00:00:00,PS,Davos,CHE,SP        
+255,2013-12-21 00:00:00,PS,Asiago,ITA,SP        
+256,2013-12-22 00:00:00,PS,Asiago,ITA,TSP       
+257,2013-12-28 00:00:00,PS,Oberhof,GER,SP        
+258,2013-12-29 00:00:00,PS,Oberhof,GER,SP        
+259,2013-12-31 00:00:00,PS,Lenzerheide,CH,SP        
+260,2014-01-01 00:00:00,PS,Lenzerheide,CH,10k       
+261,2014-01-03 00:00:00,PS,Toblach,ITA,15k       
+262,2014-01-04 00:00:00,PS,Val di Fiemme,ITA,5k        
+263,2014-01-05 00:00:00,PS,Val di Fiemme,ITA,10k       
+264,,,,0,TDS       
+265,2014-01-11 00:00:00,PS,Nové Mìsto na Moravì,CZE,SP        
+266,2014-01-12 00:00:00,PS,Nové Mìsto na Moravì,CZE,TSP       
+267,2014-01-18 00:00:00,PS,Szklarska Porêba,POL,SP        
+268,2014-01-19 00:00:00,PS,Szklarska Porêba,POL,10k       
+269,2014-02-01 00:00:00,PS,Toblach,ITA,10k       
+270,2014-02-02 00:00:00,PS,Toblach,ITA,SP        
+271,2014-03-01 00:00:00,PS,Lahti,FIN,SP        
+272,2014-03-02 00:00:00,PS,Lahti,FIN,10k       
+273,2014-03-05 00:00:00,PS,Drammen,NOR,SP        
+274,2014-03-09 00:00:00,PS,Oslo,NOR,30k       
+275,2014-03-14 00:00:00,PS,Falun,SWE,SP        
+276,2014-03-15 00:00:00,PS,Falun,SWE,15k       
+277,2014-03-16 00:00:00,PS,Falun,SWE,10k       
+278,2014-11-29 00:00:00,PS,Ruka,FIN,SP        
+279,2014-11-30 00:00:00,PS,Ruka,FIN,10k       
+280,2014-12-05 00:00:00,PS,Lillehammer,NOR,SP        
+281,2014-12-06 00:00:00,PS,Lillehammer,NOR,5k        
+282,2014-12-07 00:00:00,PS,Lillehammer,NOR,10k       
+283,2014-12-13 00:00:00,PS,Davos,CHE,10k       
+284,2014-12-14 00:00:00,PS,Davos,CHE,SP        
+285,2014-12-20 00:00:00,PS,Davos,CHE,10k       
+286,2014-12-21 00:00:00,PS,Davos,CHE,SP        
+287,2015-01-03 00:00:00,PS,Oberstdorf,GER,SP        
+288,2015-01-04 00:00:00,PS,Oberstdorf,GER,10k       
+289,2015-01-06 00:00:00,PS,Val Müstair,CH,SP        
+290,2015-01-07 00:00:00,PS,Toblach,ITA,5k        
+291,2015-01-08 00:00:00,PS,Toblach,ITA,15k       
+292,2015-01-10 00:00:00,PS,Val di Fiemme,ITA,10k       
+293,2015-01-11 00:00:00,PS,Val di Fiemme,ITA,10k       
+294,,,,0,TDS       
+295,2015-01-17 00:00:00,PS,Otepää,EST,SP        
+296,2015-01-18 00:00:00,PS,Otepää,EST,TSP       
+297,2015-01-23 00:00:00,PS,Rybiñsk,RUS,10k       
+298,2015-01-24 00:00:00,PS,Rybiñsk,RUS,SP        
+299,2015-01-25 00:00:00,PS,Rybiñsk,RUS,15k       
+300,2015-02-14 00:00:00,PS,Östersund,SWE,SP        
+301,2015-02-15 00:00:00,PS,Östersund,SWE,10k       
+302,2015-03-07 00:00:00,PS,Lahti,FIN,SP        
+303,2015-03-08 00:00:00,PS,Lahti,FIN,10k       
+304,2015-03-11 00:00:00,PS,Drammen,NOR,SP        
+305,2015-03-15 00:00:00,PS,Oslo,NOR,30k       
+306,2015-11-27 00:00:00,PS,Ruka,FIN,SP        
+307,2015-11-28 00:00:00,PS,Ruka,FIN,5k        
+308,2015-11-29 00:00:00,PS,Ruka,FIN,10k       
+309,2015-12-05 00:00:00,PS,Lillehammer,NOR,15k       
+310,2015-12-06 00:00:00,PS,Lillehammer,NOR,TE        
+311,2015-12-12 00:00:00,PS,Davos,CHE,15k       
+312,2015-12-13 00:00:00,PS,Davos,CHE,SP        
+313,2015-12-19 00:00:00,PS,Toblach,ITA,SP        
+314,2015-12-20 00:00:00,PS,Toblach,ITA,10k       
+315,2016-01-01 00:00:00,PS,Lenzerheide,CH,SP        
+316,2016-01-02 00:00:00,PS,Lenzerheide,CH,15k       
+317,2016-01-03 00:00:00,PS,Lenzerheide,CH,5k        
+318,2016-01-05 00:00:00,PS,Oberstdorf,GER,10k       
+319,2016-01-06 00:00:00,PS,Oberstdorf,GER,10k       
+320,2016-01-08 00:00:00,PS,Toblach,ITA,5k        
+321,2016-01-09 00:00:00,PS,Val di Fiemme,ITA,10k       
+322,2016-01-10 00:00:00,PS,Val di Fiemme,ITA,10k       
+323,,PS,,0,TDS       
+324,2016-01-16 00:00:00,PS,Planica,SLO,SP        
+325,2016-01-17 00:00:00,PS,Planica,SLO,TSP       
+326,2016-01-23 00:00:00,PS,Nové Mìsto na Moravì,CZE,10k       
+327,2016-01-24 00:00:00,PS,Nové Mìsto na Moravì,CZE,TE        
+328,2016-02-03 00:00:00,PS,Drammen,NOR,SP        
+329,2016-02-07 00:00:00,PS,Oslo,NOR,30k       
+330,2016-02-11 00:00:00,PS,Sztokholm,SWE,SP        
+331,2016-02-13 00:00:00,PS,Falun,SWE,5k        
+332,2016-02-14 00:00:00,PS,Falun,SWE,10k       
+333,2016-02-20 00:00:00,PS,Lahti,FIN,SP        
+334,2016-02-21 00:00:00,PS,Lahti,FIN,15k       
+335,2016-03-01 00:00:00,PS,Gatineau,CAN,SP        
+336,2016-03-02 00:00:00,PS,Montreal,CAN,10k       
+337,2016-03-04 00:00:00,PS,Québec,CAN,SP        
+338,2016-03-05 00:00:00,PS,Québec,CAN,10k       
+339,2016-03-08 00:00:00,PS,Canmore,CAN,SP        
+340,2016-03-09 00:00:00,PS,Canmore,CAN,15k       
+341,2016-03-11 00:00:00,PS,Canmore,CAN,10k       
+342,2016-03-12 00:00:00,PS,Canmore,CAN,10k       
+343,2016-11-26 00:00:00,PS,Ruka,FIN,SP        
+344,2016-11-27 00:00:00,PS,Ruka,FIN,10k       
+345,2016-12-02 00:00:00,PS,Lillehammer,NOR,SP        
+346,2016-12-03 00:00:00,PS,Lillehammer,NOR,5k        
+347,2016-12-04 00:00:00,PS,Lillehammer,NOR,10k       
+348,2016-12-10 00:00:00,PS,Davos,CHE,15k       
+349,2016-12-11 00:00:00,PS,Davos,CHE,SP        
+350,2016-12-17 00:00:00,PS,La Clusaz,FR,10k       
+351,2016-12-18 00:00:00,PS,La Clusaz,FR,TE        
+352,2016-12-31 00:00:00,PS,Val Müstair,CH,SP        
+353,2017-01-01 00:00:00,PS,Val Müstair,CH,5k        
+354,2017-01-03 00:00:00,PS,Oberstdorf,GER,10k       
+355,2017-01-04 00:00:00,PS,Oberstdorf,GER,10k       
+356,2017-01-06 00:00:00,PS,Toblach,ITA,5k        
+357,2017-01-07 00:00:00,PS,Val di Fiemme,ITA,10k       
+358,2017-01-08 00:00:00,PS,Val di Fiemme,ITA,10k       
+359,,,,0,TDS       
+360,2017-01-14 00:00:00,PS,Toblach,ITA,SP        
+361,2017-01-15 00:00:00,PS,Toblach,ITA,TSP       
+362,2017-01-21 00:00:00,PS,Ulricehamn,SWE,10k       
+363,2017-01-22 00:00:00,PS,Ulricehamn,SWE,TE        
+364,2017-01-28 00:00:00,PS,Falun,SWE,SP        
+365,2017-01-29 00:00:00,PS,Falun,SWE,15k       
+366,2017-02-03 00:00:00,PS,Pjongczang,KOR,SP        
+367,2017-02-04 00:00:00,PS,Pjongczang,KOR,15k       
+368,2017-02-05 00:00:00,PS,Pjongczang,KOR,TSP       
+369,2017-02-18 00:00:00,PS,Otepää,EST,SP        
+370,2017-02-19 00:00:00,PS,Otepää,EST,10k       
+371,2017-03-08 00:00:00,PS,Drammen,NOR,SP        
+372,2017-03-12 00:00:00,PS,Oslo,NOR,30k       
+373,2017-03-17 00:00:00,PS,Québec,CAN,SP        
+374,2017-03-18 00:00:00,PS,Québec,CAN,10k       
+375,2017-03-19 00:00:00,PS,Québec,CAN,10k       
+376,2017-11-24 00:00:00,PS,Ruka,FIN,SP        
+377,2017-11-25 00:00:00,PS,Ruka,FIN,10k       
+378,2017-11-26 00:00:00,PS,Ruka,FIN,10k       
+379,2017-12-02 00:00:00,PS,Lillehammer,NOR,SP        
+380,2017-12-03 00:00:00,PS,Lillehammer,NOR,15k       
+381,2017-12-09 00:00:00,PS,Davos,CHE,SP        
+382,2017-12-10 00:00:00,PS,Davos,CHE,10k       
+383,2017-12-16 00:00:00,PS,Toblach,ITA,10k       
+384,2017-12-17 00:00:00,PS,Toblach,ITA,10k       
+385,2017-12-30 00:00:00,PS,Lenzerheide,CH,SP        
+386,2017-12-31 00:00:00,PS,Lenzerheide,CH,10k       
+387,2018-01-01 00:00:00,PS,Lenzerheide,CH,10k       
+388,2018-01-04 00:00:00,PS,Oberstdorf,GER,10k       
+389,2018-01-06 00:00:00,PS,Val di Fiemme,ITA,10k       
+390,2018-01-07 00:00:00,PS,Val di Fiemme,ITA,10k       
+391,,PS,,0,TDS       
+392,2018-01-13 00:00:00,PS,Drezno,GER,SP        
+393,2018-01-14 00:00:00,PS,Drezno,GER,TSP       
+394,2018-01-20 00:00:00,PS,Planica,SLO,SP        
+395,2018-01-21 00:00:00,PS,Planica,SLO,10k       
+396,2018-01-27 00:00:00,PS,Seefeld,AUT,SP        
+397,2018-01-28 00:00:00,PS,Seefeld,AUT,10k       
+398,2018-03-03 00:00:00,PS,Lahti,FIN,SP        
+399,2018-03-04 00:00:00,PS,Lahti,FIN,10k       
+400,2018-03-07 00:00:00,PS,Drammen,NOR,SP        
+401,2018-03-11 00:00:00,PS,Oslo,NOR,30k       
+402,2018-03-16 00:00:00,PS,Falun,SWE,SP        
+403,2018-03-17 00:00:00,PS,Falun,SWE,10k       
+404,2018-03-18 00:00:00,PS,Falun,SWE,10k       
+405,2018-11-24 00:00:00,PS,Ruka,FIN,SP        
+406,2018-11-25 00:00:00,PS,Ruka,FIN,10k       
+407,2018-11-30 00:00:00,PS,Lillehammer,NOR,SP        
+408,2018-12-01 00:00:00,PS,Lillehammer,NOR,10k       
+409,2018-12-02 00:00:00,PS,Lillehammer,NOR,10k       
+410,2018-12-08 00:00:00,PS,Beitostolen,NOR,15k       
+411,2018-12-09 00:00:00,PS,Beitostolen,NOR,TE        
+412,2018-12-15 00:00:00,PS,Davos,CHE,SP        
+413,2018-12-16 00:00:00,PS,Davos,CHE,10k       
+414,2018-12-29 00:00:00,PS,Toblach,ITA,SP        
+415,2018-12-30 00:00:00,PS,Toblach,ITA,10k       
+416,2019-01-01 00:00:00,PS,Val Müstair,CH,SP        
+417,2019-01-02 00:00:00,PS,Oberstdorf,GER,10k       
+418,2019-01-03 00:00:00,PS,Oberstdorf,GER,10k       
+419,2019-01-05 00:00:00,PS,Val di Fiemme,ITA,10k       
+420,2019-01-06 00:00:00,PS,Val di Fiemme,ITA,10k       
+421,,PS,,0,TDS       
+422,2019-01-12 00:00:00,PS,Drezno,GER,SP        
+423,2019-01-13 00:00:00,PS,Drezno,GER,TSP       
+424,2019-01-19 00:00:00,PS,Otepää,EST,SP        
+425,2019-01-20 00:00:00,PS,Otepää,EST,10k       
+426,2019-01-26 00:00:00,PS,Ulricehamn,SWE,10k       
+427,2019-01-27 00:00:00,PS,Ulricehamn,SWE,TE        
+428,2019-02-09 00:00:00,PS,Lahti,FIN,SP        
+429,2019-02-10 00:00:00,PS,Lahti,FIN,TSP       
+430,2019-02-16 00:00:00,PS,Cogne,ITA,SP        
+431,2019-02-17 00:00:00,PS,Cogne,ITA,10k       
+432,2019-03-10 00:00:00,PS,Oslo,NOR,30k       
+433,2019-03-12 00:00:00,PS,Drammen,NOR,SP        
+434,2019-03-16 00:00:00,PS,Falun,SWE,SP        
+435,2019-03-17 00:00:00,PS,Falun,SWE,10k       
+436,2019-03-22 00:00:00,PS,Québec,CAN,SP        
+437,2019-03-23 00:00:00,PS,Québec,CAN,10k       
+438,2019-03-24 00:00:00,PS,Québec,CAN,10k       
+439,2019-11-29 00:00:00,PS,Ruka,FIN,SP        
+440,2019-11-30 00:00:00,PS,Ruka,FIN,10k       
+441,2019-12-01 00:00:00,PS,Ruka,FIN,10k       
+442,,PS,,0,          
+443,2019-12-07 00:00:00,PS,Lillehammer,NOR,15k       
+444,2019-12-08 00:00:00,PS,Lillehammer,NOR,TE        
+445,2019-12-14 00:00:00,PS,Davos,CHE,SP        
+446,2019-12-15 00:00:00,PS,Davos,CHE,10k       
+447,2019-12-21 00:00:00,PS,Planica,SLO,SP        
+448,2019-12-22 00:00:00,PS,Planica,SLO,TSP       
+449,2019-12-28 00:00:00,PS,Lenzerheide,CH,10k       
+450,2019-12-29 00:00:00,PS,Lenzerheide,CH,SP        
+451,2019-12-31 00:00:00,PS,Toblach,ITA,10k       
+452,2020-01-01 00:00:00,PS,Toblach,ITA,10k       
+453,2020-01-03 00:00:00,PS,Val di Fiemme,ITA,10k       
+454,2020-01-04 00:00:00,PS,Val di Fiemme,ITA,SP        
+455,2020-01-05 00:00:00,PS,Val di Fiemme,ITA,10k       
+456,,PS,,0,TDS       
+457,2020-01-11 00:00:00,PS,Drezno,GER,SP        
+458,2020-01-12 00:00:00,PS,Drezno,GER,TSP       
+459,2020-01-18 00:00:00,PS,Nové Mìsto na Moravì,CZE,10k       
+460,2020-01-19 00:00:00,PS,Nové Mìsto na Moravì,CZE,10k       
+461,2020-01-25 00:00:00,PS,Oberstdorf,GER,15k       
+462,2020-01-26 00:00:00,PS,Oberstdorf,GER,SP        
+463,2020-02-08 00:00:00,PS,Falun,SWE,SP        
+464,2020-02-09 00:00:00,PS,Falun,SWE,10k       
+465,2020-02-15 00:00:00,PS,Östersund,SWE,10k       
+466,2020-02-16 00:00:00,PS,Östersund,SWE,10k       
+467,2020-02-18 00:00:00,PS,Are,SWE,SP        
+468,2020-02-20 00:00:00,PS,Meraker,NOR,34k       
+469,2020-02-22 00:00:00,PS,Trondheim,NOR,SP        
+470,2020-02-23 00:00:00,PS,Trondheim,NOR,15k       
+471,2020-02-29 00:00:00,PS,Lahti,FIN,10k       
+472,2020-03-01 00:00:00,PS,Lahti,FIN,TE        
+473,2020-03-04 00:00:00,PS,Konnerud,NOR,SP        
+474,2020-03-07 00:00:00,PS,Oslo,NOR,30k       
+475,2020-11-27 00:00:00,PS,Ruka,FIN,SP        
+476,2020-11-28 00:00:00,PS,Ruka,FIN,10k       
+477,2020-11-29 00:00:00,PS,Ruka,FIN,10k       
+478,2020-12-12 00:00:00,PS,Davos,CHE,SP        
+479,2020-12-13 00:00:00,PS,Davos,CHE,10k       
+480,2020-12-19 00:00:00,PS,Drezno,GER,SP        
+481,2020-12-20 00:00:00,PS,Drezno,GER,TSP       
+482,2021-01-01 00:00:00,PS,Val Müstair,CH,SP        
+483,2021-01-02 00:00:00,PS,Val Müstair,CH,10k       
+484,2021-01-03 00:00:00,PS,Val Müstair,CH,10k       
+485,2021-01-05 00:00:00,PS,Toblach,ITA,10k       
+486,2021-01-06 00:00:00,PS,Toblach,ITA,10k       
+487,2021-01-08 00:00:00,PS,Val di Fiemme,ITA,10k       
+488,2021-01-09 00:00:00,PS,Val di Fiemme,ITA,SP        
+489,2021-01-10 00:00:00,PS,Val di Fiemme,ITA,10k       
+490,,PS,,0,TDS       
+491,2021-01-23 00:00:00,PS,Lahti,FIN,15k       
+492,2021-01-24 00:00:00,PS,Lahti,FIN,TE        
+493,2021-01-29 00:00:00,PS,Falun,SWE,10k       
+494,2021-01-30 00:00:00,PS,Falun,SWE,10k       
+495,2021-01-31 00:00:00,PS,Falun,SWE,SP        
+496,2021-02-06 00:00:00,PS,Ulricehamn,SWE,SP        
+497,2021-02-07 00:00:00,PS,Ulricehamn,SWE,TSP       
+498,2021-03-13 00:00:00,PS,Engadyna,CH,10k       
+499,2021-03-14 00:00:00,PS,Engadyna,CH,30k       
+500,2021-11-26 00:00:00,PS,Ruka,FIN,SP        
+501,2021-11-27 00:00:00,PS,Ruka,FIN,10k       
+502,2021-11-28 00:00:00,PS,Ruka,FIN,10k       
+503,2021-12-03 00:00:00,PS,Lillehammer,NOR,SP        
+504,2021-12-04 00:00:00,PS,Lillehammer,NOR,15k       
+505,2021-12-05 00:00:00,PS,Lillehammer,NOR,TE        
+506,2021-12-11 00:00:00,PS,Davos,CHE,SP        
+507,2021-12-12 00:00:00,PS,Davos,CHE,10k       
+508,2021-12-18 00:00:00,PS,Drezno,GER,SP        
+509,2021-12-19 00:00:00,PS,Drezno,GER,TSP       
+510,2021-12-28 00:00:00,PS,Lenzerheide,CH,SP        
+511,2021-12-29 00:00:00,PS,Lenzerheide,CH,10k       
+512,2021-12-31 00:00:00,PS,Oberstdorf,GER,10k       
+513,2022-01-01 00:00:00,PS,Oberstdorf,GER,SP        
+514,2022-01-03 00:00:00,PS,Val di Fiemme,ITA,10k       
+515,2022-01-04 00:00:00,PS,Val di Fiemme,ITA,10k       
+516,,PS,,0,TDS       
+517,2022-02-26 00:00:00,PS,Lahti,FIN,SP        
+518,2022-02-27 00:00:00,PS,Lahti,FIN,10k       
+519,2022-03-03 00:00:00,PS,Drammen,NOR,SP        
+520,2022-03-05 00:00:00,PS,Oslo,NOR,30k       
+521,2022-03-11 00:00:00,PS,Falun,SWE,SP        
+522,2022-03-12 00:00:00,PS,Falun,SWE,10k       
+523,2022-03-13 00:00:00,PS,Falun,SWE,TE        
+524,2022-03-13 00:00:00,PS,Falun,SWE,TSP       
+525,2022-11-25 00:00:00,PS,Ruka,FIN,SP        
+526,2022-11-26 00:00:00,PS,Ruka,FIN,10k       
+527,2022-11-27 00:00:00,PS,Ruka,FIN,20k       
+528,2022-12-02 00:00:00,PS,Lillehammer,NOR,10k       
+529,2022-12-03 00:00:00,PS,Lillehammer,NOR,SP        
+530,2022-12-04 00:00:00,PS,Lillehammer,NOR,20k       
+531,2022-12-09 00:00:00,PS,Beitostolen,NOR,SP        
+532,2022-12-10 00:00:00,PS,Beitostolen,NOR,10k       
+533,2022-12-17 00:00:00,PS,Davos,CHE,SP        
+534,2022-12-18 00:00:00,PS,Davos,CHE,20k       
+535,2022-12-31 00:00:00,PS,Val Müstair,CH,SP        
+536,2023-01-01 00:00:00,PS,Val Müstair,CH,10k       
+537,2023-01-03 00:00:00,PS,Oberstdorf,GER,10k       
+538,2023-01-04 00:00:00,PS,Oberstdorf,GER,20k       
+539,2023-01-06 00:00:00,PS,Val di Fiemme,ITA,SP        
+540,2023-01-07 00:00:00,PS,Val di Fiemme,ITA,15k       
+541,2023-01-08 00:00:00,PS,Val di Fiemme,ITA,10k       
+542,,,,0,TDS       
+543,2023-01-21 00:00:00,PS,Livigno,ITA,SP        
+544,2023-01-22 00:00:00,PS,Livigno,ITA,TSP       
+545,2023-01-27 00:00:00,PS,Les Rousses,FR,10k       
+546,2023-01-28 00:00:00,PS,Les Rousses,FR,SP        
+547,2023-01-29 00:00:00,PS,Les Rousses,FR,20k       
+548,2023-02-03 00:00:00,PS,Toblach,ITA,SP        
+549,2023-02-04 00:00:00,PS,Toblach,ITA,10k       
+550,2023-02-05 00:00:00,PS,Toblach,ITA,TE        
+551,2023-03-12 00:00:00,PS,Oslo,NOR,50k       
+552,2023-03-14 00:00:00,PS,Drammen,NOR,SP        
+553,2023-03-17 00:00:00,PS,Falun,SWE,10k       
+554,2023-03-18 00:00:00,PS,Falun,SWE,SP        
+555,2023-03-21 00:00:00,PS,Tallinn,EST,SP        
+556,2023-03-24 00:00:00,PS,Lahti,FIN,TSP       
+557,2023-03-25 00:00:00,PS,Lahti,FIN,SP        
+558,2023-03-26 00:00:00,PS,Lahti,FIN,20k       
+559,2022-02-20 00:00:00,IO,Beijing,CHN,30k       
+560,2022-02-16 00:00:00,IO,Beijing,CHN,Tsp       
+561,2022-02-12 00:00:00,IO,Beijing,CHN,TE        
+562,2022-02-10 00:00:00,IO,Beijing,CHN,10k       
+563,2022-02-08 00:00:00,IO,Beijing,CHN,SP        
+564,2022-02-05 00:00:00,IO,Beijing,CHN,Skt       
+565,2018-02-25 00:00:00,IO,PyeongChang,KOR,30k       
+566,2018-02-21 00:00:00,IO,PyeongChang,KOR,TSP       
+567,2018-02-17 00:00:00,IO,PyeongChang,KOR,TE        
+568,2018-02-15 00:00:00,IO,PyeongChang,KOR,10k       
+569,2018-02-13 00:00:00,IO,PyeongChang,KOR,SP        
+570,2018-02-10 00:00:00,IO,PyeongChang,KOR,Skt       
+571,2014-02-22 00:00:00,IO,Sochi,RUS,30k       
+572,2014-02-19 00:00:00,IO,Sochi,RUS,TSP       
+573,2014-02-15 00:00:00,IO,Sochi,RUS,TE        
+574,2014-02-13 00:00:00,IO,Sochi,RUS,10k       
+575,2014-02-11 00:00:00,IO,Sochi,RUS,SP        
+576,2014-02-08 00:00:00,IO,Sochi,RUS,Skt       
+577,2010-02-27 00:00:00,IO,Whistler,CAN,30k       
+578,2010-02-25 00:00:00,IO,Whistler,CAN,TE        
+579,2010-02-22 00:00:00,IO,Whistler,CAN,TSP       
+580,2010-02-19 00:00:00,IO,Whistler,CAN,Pur       
+581,2010-02-17 00:00:00,IO,Whistler,CAN,SP        
+582,2010-02-15 00:00:00,IO,Whistler,CAN,10k       
+583,2006-02-24 00:00:00,IO,Pragelato,ITA,30k       
+584,2006-02-22 00:00:00,IO,Pragelato,ITA,SP        
+585,2006-02-18 00:00:00,IO,Pragelato,ITA,TE        
+586,2006-02-16 00:00:00,IO,Pragelato,ITA,10k       
+587,2006-02-14 00:00:00,IO,Pragelato,ITA,TSP       
+588,2006-02-12 00:00:00,IO,Pragelato,ITA,Pur       
+589,2002-02-24 00:00:00,IO,SaltLakeCity,USA,30k       
+590,2002-02-21 00:00:00,IO,SaltLakeCity,USA,TE        
+591,2002-02-19 00:00:00,IO,SaltLakeCity,USA,SP        
+592,2002-02-15 00:00:00,IO,SaltLakeCity,USA,Pur       
+593,2002-02-12 00:00:00,IO,SaltLakeCity,USA,10k       
+594,2002-02-09 00:00:00,IO,SaltLakeCity,USA,15k       
+595,2023-03-04 00:00:00,MS,Planica,SLO,30k       
+596,2023-03-02 00:00:00,MS,Planica,SLO,TE        
+597,2023-02-28 00:00:00,MS,Planica,SLO,10k       
+598,2023-02-26 00:00:00,MS,Planica,SLO,Tsp       
+599,2023-02-25 00:00:00,MS,Planica,SLO,Skt       
+600,2023-02-23 00:00:00,MS,Planica,SLO,SP        
+601,2021-03-06 00:00:00,MS,Oberstdorf,GER,30k       
+602,2021-03-04 00:00:00,MS,Oberstdorf,GER,TE        
+603,2021-03-02 00:00:00,MS,Oberstdorf,GER,10k       
+604,2021-02-28 00:00:00,MS,Oberstdorf,GER,Tsp       
+605,2021-02-27 00:00:00,MS,Oberstdorf,GER,Skt       
+606,2021-02-25 00:00:00,MS,Oberstdorf,GER,SP        
+607,2019-03-02 00:00:00,MS,Seefeld,AUT,30k       
+608,2019-02-28 00:00:00,MS,Seefeld,AUT,TE        
+609,2019-02-26 00:00:00,MS,Seefeld,AUT,10k       
+610,2019-02-24 00:00:00,MS,Seefeld,AUT,Tsp       
+611,2019-02-23 00:00:00,MS,Seefeld,AUT,Skt       
+612,2019-02-21 00:00:00,MS,Seefeld,AUT,SP        
+613,2017-03-04 00:00:00,MS,Lahti,FIN,30k       
+614,2017-03-02 00:00:00,MS,Lahti,FIN,TE        
+615,2017-02-28 00:00:00,MS,Lahti,FIN,10k       
+616,2017-02-26 00:00:00,MS,Lahti,FIN,TSP       
+617,2017-02-25 00:00:00,MS,Lahti,FIN,Skt       
+618,2017-02-23 00:00:00,MS,Lahti,FIN,SP        
+619,2015-02-28 00:00:00,MS,Falun,SWE,30k       
+620,2015-02-26 00:00:00,MS,Falun,SWE,TE        
+621,2015-02-24 00:00:00,MS,Falun,SWE,10k       
+622,2015-02-22 00:00:00,MS,Falun,SWE,TSP       
+623,2015-02-21 00:00:00,MS,Falun,SWE,Skt       
+624,2015-02-19 00:00:00,MS,Falun,SWE,SP        
+625,2013-03-02 00:00:00,MS,Val di Fiemme,ITA,30k       
+626,2013-02-28 00:00:00,MS,Val di Fiemme,ITA,TE        
+627,2013-02-26 00:00:00,MS,Val di Fiemme,ITA,10k       
+628,2013-02-24 00:00:00,MS,Val di Fiemme,ITA,TSP       
+629,2013-02-23 00:00:00,MS,Val di Fiemme,ITA,Skt       
+630,2013-02-21 00:00:00,MS,Val di Fiemme,ITA,SP        
+631,2011-03-05 00:00:00,MS,Oslo,NOR,30k       
+632,2011-03-03 00:00:00,MS,Oslo,NOR,TE        
+633,2011-03-02 00:00:00,MS,Oslo,NOR,TSP       
+634,2011-02-28 00:00:00,MS,Oslo,NOR,10k       
+635,2011-02-26 00:00:00,MS,Oslo,NOR,Pur       
+636,2011-02-24 00:00:00,MS,Oslo,NOR,SP        
+637,2009-02-28 00:00:00,MS,Liberec,CZE,30k       
+638,2009-02-26 00:00:00,MS,Liberec,CZE,TE        
+639,2009-02-25 00:00:00,MS,Liberec,CZE,TSP       
+640,2009-02-24 00:00:00,MS,Liberec,CZE,SP        
+641,2009-02-21 00:00:00,MS,Liberec,CZE,Pur       
+642,2009-02-19 00:00:00,MS,Liberec,CZE,10k       
+643,2007-03-03 00:00:00,MS,Sapporo,JPN,30k       
+644,2007-03-01 00:00:00,MS,Sapporo,JPN,TE        
+645,2007-02-27 00:00:00,MS,Sapporo,JPN,10k       
+646,2007-02-25 00:00:00,MS,Sapporo,JPN,Pur       
+647,2007-02-23 00:00:00,MS,Sapporo,JPN,Tsp       
+648,2007-02-22 00:00:00,MS,Sapporo,JPN,SP        
+649,2005-02-26 00:00:00,MS,Oberstdorf,GER,30k       
+650,2005-02-25 00:00:00,MS,Oberstdorf,GER,Tsp       
+651,2005-02-22 00:00:00,MS,Oberstdorf,GER,SP        
+652,2005-02-21 00:00:00,MS,Oberstdorf,GER,TE        
+653,2005-02-19 00:00:00,MS,Oberstdorf,GER,Pur       
+654,2005-02-17 00:00:00,MS,Oberstdorf,GER,10k       
+655,2003-02-28 00:00:00,MS,Val di Fiemme,ITA,30k       
+656,2003-02-26 00:00:00,MS,Val di Fiemme,ITA,SP        
+657,2003-02-24 00:00:00,MS,Val di Fiemme,ITA,TE        
+658,2003-02-22 00:00:00,MS,Val di Fiemme,ITA,Pur       
+659,2003-02-20 00:00:00,MS,Val di Fiemme,ITA,10k       
+660,2003-02-18 00:00:00,MS,Val di Fiemme,ITA,15k       
+661,2001-02-23 00:00:00,MS,Lahti,FIN,TE        
+662,2001-02-21 00:00:00,MS,Lahti,FIN,SP        
+663,2001-02-20 00:00:00,MS,Lahti,FIN,10k       
+664,2001-02-18 00:00:00,MS,Lahti,FIN,Pur       
+665,2001-02-15 00:00:00,MS,Lahti,FIN,15k       

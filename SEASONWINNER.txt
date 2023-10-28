@@ -1,0 +1,164 @@
+ID,SEASON,PRIZE,PLACE,ID_ATHLETS
+1,2004/2005, large crystal globes,FIRST,1261
+2,2005/2006, large crystal globes,FIRST,1261
+3,2006/2007, large crystal globes,FIRST,1076
+4,2007/2008, large crystal globes,FIRST,1076
+5,2008/2009, large crystal globes,FIRST,1055
+6,2009/2010, large crystal globes,FIRST,1055
+7,2010/2011, large crystal globes,FIRST,1055
+8,2011/2012, large crystal globes,FIRST,1261
+9,2012/2013, large crystal globes,FIRST,1055
+10,2013/2014, large crystal globes,FIRST,1272
+11,2014/2015, large crystal globes,FIRST,1261
+12,2015/2016, large crystal globes,FIRST,1272
+13,2016/2017, large crystal globes,FIRST,1287
+14,2017/2018, large crystal globes,FIRST,1287
+15,2018/2019, large crystal globes,FIRST,1281
+16,2019/2020, large crystal globes,FIRST,1272
+17,2020/2021, large crystal globes,FIRST,1051
+19,2022/2023, large crystal globes,FIRST,1321
+20,2004/2005, large crystal globes,SECOND,1081
+21,2005/2006, large crystal globes,SECOND,1084
+22,2006/2007, large crystal globes,SECOND,1261
+23,2007/2008, large crystal globes,SECOND,1266
+24,2008/2009, large crystal globes,SECOND,1066
+25,2009/2010, large crystal globes,SECOND,1261
+26,2010/2011, large crystal globes,SECOND,1261
+27,2011/2012, large crystal globes,SECOND,1055
+28,2012/2013, large crystal globes,SECOND,1272
+29,2013/2014, large crystal globes,SECOND,1261
+30,2014/2015, large crystal globes,SECOND,1272
+31,2015/2016, large crystal globes,SECOND,1281
+32,2016/2017, large crystal globes,SECOND,1282
+33,2017/2018, large crystal globes,SECOND,1051
+35,2019/2020, large crystal globes,SECOND,1287
+37,2021/2022, large crystal globes,SECOND,1051
+38,2022/2023, large crystal globes,SECOND,1051
+39,2004/2005, large crystal globes,THIRD,1076
+40,2005/2006, large crystal globes,THIRD,1085
+41,2006/2007, large crystal globes,THIRD,1081
+42,2007/2008, large crystal globes,THIRD,1055
+43,2008/2009, large crystal globes,THIRD,1145
+44,2009/2010, large crystal globes,THIRD,1066
+45,2010/2011, large crystal globes,THIRD,1065
+46,2011/2012, large crystal globes,THIRD,1272
+47,2012/2013, large crystal globes,THIRD,1059
+48,2013/2014, large crystal globes,THIRD,1266
+49,2014/2015, large crystal globes,THIRD,1287
+50,2015/2016, large crystal globes,THIRD,1287
+51,2016/2017, large crystal globes,THIRD,1281
+52,2017/2018, large crystal globes,THIRD,1281
+53,2018/2019, large crystal globes,THIRD,1272
+55,2020/2021, large crystal globes,THIRD,1327
+56,2021/2022, large crystal globes,THIRD,1327
+57,2022/2023, large crystal globes,THIRD,1271
+58,2004/2005,small  crystal globes,FIRST,1261
+59,2005/2006,small  crystal globes,FIRST,1085
+60,2006/2007,small  crystal globes,FIRST,1076
+61,2007/2008,small  crystal globes,FIRST,1076
+62,2008/2009,small  crystal globes,FIRST,1055
+63,2009/2010,small  crystal globes,FIRST,1055
+64,2010/2011,small  crystal globes,FIRST,1055
+65,2011/2012,small  crystal globes,FIRST,1261
+66,2012/2013,small  crystal globes,FIRST,1055
+67,2013/2014,small  crystal globes,FIRST,1272
+68,2014/2015,small  crystal globes,FIRST,1261
+69,2015/2016,small  crystal globes,FIRST,1272
+70,2016/2017,small  crystal globes,FIRST,1287
+71,2017/2018,small  crystal globes,FIRST,1287
+72,2018/2019,small  crystal globes,FIRST,1272
+73,2019/2020,small  crystal globes,FIRST,1272
+74,2020/2021,small  crystal globes,FIRST,1051
+75,2021/2022,small  crystal globes,FIRST,1272
+76,2022/2023,small  crystal globes,FIRST,1271
+77,2004/2005,small  crystal globes,SECOND,1081
+78,2005/2006,small  crystal globes,SECOND,1081
+79,2006/2007,small  crystal globes,SECOND,1081
+81,2008/2009,small  crystal globes,SECOND,1145
+82,2009/2010,small  crystal globes,SECOND,1261
+83,2010/2011,small  crystal globes,SECOND,1261
+84,2011/2012,small  crystal globes,SECOND,1055
+85,2012/2013,small  crystal globes,SECOND,1272
+86,2013/2014,small  crystal globes,SECOND,1261
+87,2014/2015,small  crystal globes,SECOND,1272
+88,2015/2016,small  crystal globes,SECOND,1287
+89,2016/2017,small  crystal globes,SECOND,1261
+90,2017/2018,small  crystal globes,SECOND,1281
+91,2018/2019,small  crystal globes,SECOND,1281
+92,2019/2020,small  crystal globes,SECOND,1287
+93,2020/2021,small  crystal globes,SECOND,1327
+94,2021/2022,small  crystal globes,SECOND,1033
+95,2022/2023,small  crystal globes,SECOND,1051
+96,2004/2005,small  crystal globes,THIRD,1080
+97,2005/2006,small  crystal globes,THIRD,1084
+98,2006/2007,small  crystal globes,THIRD,1145
+99,2007/2008,small  crystal globes,THIRD,1055
+100,2008/2009,small  crystal globes,THIRD,1074
+101,2009/2010,small  crystal globes,THIRD,1061
+102,2010/2011,small  crystal globes,THIRD,1272
+103,2011/2012,small  crystal globes,THIRD,1272
+104,2012/2013,small  crystal globes,THIRD,1061
+105,2013/2014,small  crystal globes,THIRD,1271
+106,2014/2015,small  crystal globes,THIRD,1287
+107,2015/2016,small  crystal globes,THIRD,1281
+108,2016/2017,small  crystal globes,THIRD,1282
+109,2017/2018,small  crystal globes,THIRD,1051
+111,2019/2020,small  crystal globes,THIRD,1327
+113,2021/2022,small  crystal globes,THIRD,1282
+114,2022/2023,small  crystal globes,THIRD,1321
+115,2004/2005,sprint small  crystal globes,FIRST,1261
+116,2005/2006,sprint small  crystal globes,FIRST,1261
+117,2006/2007,sprint small  crystal globes,FIRST,1076
+118,2007/2008,sprint small  crystal globes,FIRST,1066
+119,2008/2009,sprint small  crystal globes,FIRST,1066
+120,2009/2010,sprint small  crystal globes,FIRST,1055
+121,2010/2011,sprint small  crystal globes,FIRST,1066
+122,2011/2012,sprint small  crystal globes,FIRST,1059
+123,2012/2013,sprint small  crystal globes,FIRST,1059
+124,2013/2014,sprint small  crystal globes,FIRST,1059
+125,2014/2015,sprint small  crystal globes,FIRST,1261
+126,2015/2016,sprint small  crystal globes,FIRST,1280
+127,2016/2017,sprint small  crystal globes,FIRST,1280
+128,2017/2018,sprint small  crystal globes,FIRST,1280
+129,2018/2019,sprint small  crystal globes,FIRST,1050
+130,2019/2020,sprint small  crystal globes,FIRST,1340
+131,2020/2021,sprint small  crystal globes,FIRST,1311
+132,2021/2022,sprint small  crystal globes,FIRST,1293
+133,2022/2023,sprint small  crystal globes,FIRST,1293
+134,2004/2005,sprint small  crystal globes,SECOND,1076
+135,2005/2006,sprint small  crystal globes,SECOND,1088
+136,2006/2007,sprint small  crystal globes,SECOND,1066
+137,2007/2008,sprint small  crystal globes,SECOND,1266
+138,2008/2009,sprint small  crystal globes,SECOND,1065
+139,2009/2010,sprint small  crystal globes,SECOND,1261
+140,2010/2011,sprint small  crystal globes,SECOND,1065
+141,2011/2012,sprint small  crystal globes,SECOND,1280
+142,2012/2013,sprint small  crystal globes,SECOND,1055
+143,2013/2014,sprint small  crystal globes,SECOND,1105
+144,2014/2015,sprint small  crystal globes,SECOND,1281
+145,2015/2016,sprint small  crystal globes,SECOND,1281
+146,2016/2017,sprint small  crystal globes,SECOND,1050
+147,2017/2018,sprint small  crystal globes,SECOND,1050
+148,2018/2019,sprint small  crystal globes,SECOND,1280
+149,2019/2020,sprint small  crystal globes,SECOND,1300
+150,2020/2021,sprint small  crystal globes,SECOND,1309
+151,2021/2022,sprint small  crystal globes,SECOND,1311
+152,2022/2023,sprint small  crystal globes,SECOND,1309
+153,2004/2005,sprint small  crystal globes,THIRD,1087
+154,2005/2006,sprint small  crystal globes,THIRD,1084
+156,2007/2008,sprint small  crystal globes,THIRD,1076
+157,2008/2009,sprint small  crystal globes,THIRD,1073
+158,2009/2010,sprint small  crystal globes,THIRD,1066
+159,2010/2011,sprint small  crystal globes,THIRD,1059
+160,2011/2012,sprint small  crystal globes,THIRD,1261
+161,2012/2013,sprint small  crystal globes,THIRD,1281
+162,2013/2014,sprint small  crystal globes,THIRD,1261
+163,2014/2015,sprint small  crystal globes,THIRD,1280
+164,2015/2016,sprint small  crystal globes,THIRD,1050
+165,2016/2017,sprint small  crystal globes,THIRD,1053
+166,2017/2018,sprint small  crystal globes,THIRD,1038
+167,2018/2019,sprint small  crystal globes,THIRD,1293
+168,2019/2020,sprint small  crystal globes,THIRD,1311
+169,2020/2021,sprint small  crystal globes,THIRD,1340
+170,2021/2022,sprint small  crystal globes,THIRD,1300
+171,2022/2023,sprint small  crystal globes,THIRD,1321
