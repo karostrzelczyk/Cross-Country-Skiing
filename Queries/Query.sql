@@ -1,10 +1,21 @@
--- Ranking of the athletes (how many and what awards they won)  
+-- Returns the players (how many and what awards they won)  
 SELECT a.NAME_1, a.ID, b.PRIZE, count(b.PLACE) as winner
 FROM ATHLETS a
 LEFT JOIN SEASONWINNER b ON a.ID = b.ID_ATHLETS
 WHERE b.PLACE='first'
 GROUP BY b.PRIZE, a.id, a.NAME_1
 ORDER BY b.PRIZE, winner desc
+    
+-- Returns an athlete who has won a gold medal in the Olympic Games and won a gold medal in the World Championships
+SELECT DISTINCT b.ID_ATHLETS, b.NAME_1, c.COUNTRY, c.FIS_CODE
+FROM dbo.COMPETITION AS a 
+INNER JOIN dbo.RESULTS AS b ON a.ID = b.ID_COMPETITION
+INNER JOIN dbo.ATHLETS AS c ON b.ID_ATHLETS = c.ID
+WHERE  (a.TYPE_OF_COMPETITION = 'MS') AND (b.ID_ATHLETS IS NOT NULL) AND (b.PLACE = 'FIRST') AND EXISTS
+                      (SELECT 1 AS Expr1
+                       FROM  dbo.COMPETITION AS a INNER JOIN
+                             dbo.RESULTS AS b ON a.ID = b.ID_COMPETITION
+                       WHERE (a.TYPE_OF_COMPETITION = 'IO'))
 
 -- Returns the players who won all the prizes (i.e., the large crystal globe, the small crystal globe, and the sprint small globe)
 SELECT wl.ID, wl.NAME_1
