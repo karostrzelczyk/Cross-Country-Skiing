@@ -7,12 +7,24 @@ The "Cross-Country-Skiing" project was created to enable analysis of sports resu
 POL 🇵🇱: 
 Projekt "Cross-Country-Skiing" został stworzony w celu umożliwienia analizy wyników sportowych w dyscyplinie biegów narciarskich z różnych prestiżowych zawodów, takich jak Igrzyska Olimpijskie, Mistrzostwa Świata oraz Puchar Świata. W bazie danych SQL projektu znajdują się szczegółowe informacje na temat trzech najlepszych zawodniczek z każdej konkurencji. W celu ułatwienia korzystania z projektu, dostępne są również przygotowane widoki, które pozwalają na bardziej czytelną prezentację danych. Dodatkowo, w repozytorium znajdują się przykładowe zapytania, które można wykorzystać do pobierania konkretnych informacji z bazy danych. Każde zapytanie jest opatrzone komentarzem, który wyjaśnia, jakie dane są zwracane przez dane zapytanie.
 
-### Struktura bazy danych 
+### DATABASE STRUCTURE / STRUKTURA BAZY DANYCH
+ENG 🇬🇧:
+The database structure was created based on data obtained from various sources on the Internet. It was then subdivided and transformed to achieve normalization. Normalization consisted of creating appropriate tables and establishing relationships between them. This reduced data redundancy and removed any inconsistent relationships. Tools used were: EXCEL, PYTHON and SQL; 
+Structure of the database:
+Tables - ATHLETS.txt, COMPETITION.txt, RESULTS.txt, SEASONWINNER.txt and TEAM.txt; Views to enable more advanced data analysis; SQL queries to retrieve specific information from the database;
+
+
+POL 🇵🇱:
 Struktura bazy danych została stworzona w oparciu o dane pozyskane z różnych źródeł w internecie. Następnie dokonano jej podziału oraz przekształceń w celu osiągnięcia normalizacji. Normalizacja polegała na tworzeniu odpowiednich tabel i ustalaniu relacji między nimi. W ten sposób zredukowano nadmiarowość danych oraz usunięto wszelkie niespójne zależności. Wykorzystano do tego narzędzia takie jak: EXCEL, PYTHON oraz SQL;
 Struktura bazy danych:
-* tabele - ATHLETS.txt, COMPETITION.txt, RESULTS.txt, SEASONWINNER.txt oraz TEAM.txt;
-* widoki umożliwiające bardziej zaawansowane analizy danych;
-* zapytania SQL pozwalające na pobieranie konkretnych informacji z bazy danych;
+Tabele - ATHLETS.txt, COMPETITION.txt, RESULTS.txt, SEASONWINNER.txt oraz TEAM.txt; Widoki umożliwiające bardziej zaawansowane analizy danych; Zapytania SQL pozwalające na pobieranie konkretnych informacji z bazy danych;
+
+
+
+
+
+
+
 ####  Relacje bazy danych 
 Tabele:
 ATHLETS.txt - zawiera dane odnośnie zawodników, którzy brali udział w zawodach. Znajdują się takie informacje jak: Imię i nazwisko (Name_1), kraj który reprezentują (COUNTRY), Płeć (Gender) oraz kod zawodnika (FIS_CODE). Posiada klucz gówny - ID;
