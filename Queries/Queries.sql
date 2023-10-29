@@ -49,5 +49,14 @@ SELECT *
 FROM MostWinsByCountry
 ORDER BY [Total Country Wins] DESC
 
+--Returns how many gold(first), silver(second) and bronze(third) medals were won by representatives of the countries
+SELECT COUNT(a.PLACE) AS WINNER, a.PLACE, b.COUNTRY, c.TYPE_OF_COMPETITION
+FROM RESULTS a
+JOIN ATHLETS b ON a.ID_ATHLETS=b.ID
+JOIN COMPETITION c ON c.ID=a.ID_COMPETITION
+WHERE c.TYPE_OF_COMPETITION='MS'
+GROUP BY a.PLACE, b.COUNTRY,c.TYPE_OF_COMPETITION
+ORDER BY a.PLACE ASC, WINNER DESC
+
 
 
