@@ -1,4 +1,4 @@
-# Cross-Country-Skiing
+# Cross-Country-Skiing 🎿
 ## Opis projektu
 Projekt "Cross-Country-Skiing" został stworzony w celu umożliwienia analizy wyników sportowych w dyscyplinie biegów narciarskich z różnych prestiżowych zawodów,
 takich jak Igrzyska Olimpijskie, Mistrzostwa Świata oraz Puchar Świata.
