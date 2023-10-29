@@ -21,24 +21,24 @@ Tabele - ATHLETS.txt, COMPETITION.txt, RESULTS.txt, SEASONWINNER.txt oraz TEAM.t
 
 ####  DATABASE RELATIONSHIPS / RELACJE BAZY DANYCH  
 ENG 🇬🇧:
-Tables: ATHLETS.txt  - contains data regarding the athletes who participated in the competition. It contains such information as Name (NAME_1), the country they represent (COUNTRY), Gender (GENDER) and the athlete's code (FIS_CODE). It has a primary key - ID; COMPETITION.txt - contains data regarding the date (DATE), place (CITY, COUNTRY) and type (TYPE_OF_COMPETITION) and competition of the event (DISTANCE). It has a primary key - ID; RESULTS.txt - contains data regarding the results in a given competition (PLACE, NAME_1). It has a primary key - ID and foreign keys: ID_COMPETITION and ID_ATHLETS; SEASONWINNER.txt - contains data regarding awards (PRIZE), which are received at the end of each season for a place in the top three (PLACE). They also indicate in what season the player achieved a given award (SEASON). It has a primary key - ID and a foreign key ID_ATHLETS; TEAM.txt - contains information regarding the nationality(COUNTRY) that the player represents and belongs to. It has a primary key - ID and a foreign key ID_ATHLETS; 
+Tables: ATHLETS.txt  - contains data regarding the athletes who participated in the competition. It contains such information as Name (NAME_1), the country they represent (COUNTRY), Gender (GENDER) and the athlete's code (FIS_CODE). It has a primary key - ID; COMPETITION.txt - contains data regarding the date (DATE), place (CITY, COUNTRY) and type (TYPE_OF_COMPETITION) and competition of the event (DISTANCE). It has a primary key - ID; RESULTS.txt - contains data regarding the results in a given competition (PLACE, NAME_1). It has a primary key - ID and foreign keys: ID_COMPETITION and ID_ATHLETS; SEASONWINNER.txt - contains data regarding awards (PRIZE), which are received at the end of each season for a place in the top three (PLACE). They also indicate in what season the player achieved a given award (SEASON). It has a primary key - ID and a foreign key ID_ATHLETS; TEAM.txt - contains information regarding the nationality(COUNTRY) that the player represents. It has a primary key - ID and a foreign key ID_ATHLETS; 
 
 
 POL 🇵🇱:
-Tabele: ATHLETS.txt - zawiera dane odnośnie zawodników, którzy brali udział w zawodach. Znajdują się takie informacje jak: Imię i nazwisko (NAME_1), kraj który reprezentują (COUNTRY), Płeć (GENDER) oraz kod zawodnika (FIS_CODE). Posiada klucz gówny - ID; COMPETITION.txt - zawiera dane odnośnie daty(DATE), miejsca(CITY, COUNTRY) oraz rodzaj(TYP_OF_COMPETITION) i  konkurencji zawodów(DISTANCE). Posiada klucz gówny - ID; RESULTS.txt - zawiera dane odnośnie wyników w danej konkurencji (PLACE, NAME_1). Posiada klucz gówny - ID oraz klucze obce: ID_COMPETITION oraz ID_ATHLETS; SEASONWINNER.txt - zawiera dane odnośnie nagród (PRIZE), które otrzymuję się na koniec każdego sezonu za miejsce w top3 (PLACE). Wskazują też w jakim sezonie zawodnik osiągnął daną nagrodę (SEASON). Posiada klucz gówny - ID oraz klucz obcy ID_ATHLETS; TEAM.txt - zawiera informację odnośnie narodowości(COUNTRY), którą dany zawodnik reprezentuję i należy. Posiada klucz gówny - ID oraz klucz obcy ID_ATHLETS;
+Tabele: ATHLETS.txt - zawiera dane odnośnie zawodników, którzy brali udział w zawodach. Znajdują się takie informacje jak: Imię i nazwisko (NAME_1), kraj który reprezentują (COUNTRY), Płeć (GENDER) oraz kod zawodnika (FIS_CODE). Posiada klucz gówny - ID; COMPETITION.txt - zawiera dane odnośnie daty(DATE), miejsca(CITY, COUNTRY) oraz rodzaj(TYPE_OF_COMPETITION) i  konkurencji zawodów(DISTANCE). Posiada klucz gówny - ID; RESULTS.txt - zawiera dane odnośnie wyników w danej konkurencji (PLACE, NAME_1). Posiada klucz gówny - ID oraz klucze obce: ID_COMPETITION oraz ID_ATHLETS; SEASONWINNER.txt - zawiera dane odnośnie nagród (PRIZE), które otrzymuję się na koniec każdego sezonu za miejsce w top 3 (PLACE). Wskazują też w jakim sezonie zawodnik osiągnął daną nagrodę (SEASON). Posiada klucz gówny - ID oraz klucz obcy ID_ATHLETS; TEAM.txt - zawiera informację odnośnie narodowości(COUNTRY), którą dany zawodnik reprezentuję i należy. Posiada klucz gówny - ID oraz klucz obcy ID_ATHLETS;
 
 ##### PROJECT OBJECTIVE / CEL PROJEKTU
 ENG 🇬🇧:
-The goal of this project is to enable analysis and understanding of sports performance in cross-country skiing.Views and queries allow quick and precise data search and report generation.
+The goal of this project is to enable analysis and understanding of sports performance in cross-country skiing. Views and queries allow quick and precise data search and report generation.
 
 
 POL 🇵🇱:
-Celem tego projektu jest umożliwienie analizy i zrozumienia wyników sportowych w biegach narciarskich.Widoki i zapytania pozwalają na szybkie i precyzyjne wyszukiwanie danych oraz generowanie raportów.
+Celem tego projektu jest umożliwienie analizy i zrozumienia wyników sportowych w biegach narciarskich. Widoki i zapytania pozwalają na szybkie i precyzyjne wyszukiwanie danych oraz generowanie raportów.
 
 ###### INSTRUCTIONS FOR USE / INSTRUKCJA UŻYCIA
 ENG 🇬🇧:
-Import all the tables into your database, then prepare views and SQL queries to get the information of interest from the database. Execute SQL queries to get the information you are interested in.
+Import all the tables into your database, then prepare views and SQL queries to get the information of interest from the database. 
 
 
 POL 🇵🇱:
-Zaimportuj wszystkie tabele do swojej bazy danych, a następnie  przygotuj widoki i zapytania SQL, które pomogą Ci uzyskać interesujące informacje z bazy danych. Wykonuj zapytania SQL, aby uzyskiwać interesujące Cię informacje.
+Zaimportuj wszystkie tabele do swojej bazy danych, a następnie  przygotuj widoki i zapytania SQL, które pomogą Ci uzyskać interesujące informacje z bazy danych. 
