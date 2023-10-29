@@ -1,4 +1,4 @@
--- Zawodnik, który zdobył złoty medal w Igrzyskach Olimpijskich oraz zdobył złoty medal w Mistrzostwach Świata
+-- Returns an athlete who has won a gold medal in the Olympic Games and won a gold medal in the World Championships
 
 SELECT DISTINCT b.ID_ATHLETS, b.NAME_1, c.COUNTRY, c.FIS_CODE
 FROM dbo.COMPETITION AS a 
