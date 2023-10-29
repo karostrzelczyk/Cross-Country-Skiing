@@ -19,12 +19,6 @@ Struktura bazy danych została stworzona w oparciu o dane pozyskane z różnych 
 Struktura bazy danych:
 Tabele - ATHLETS.txt, COMPETITION.txt, RESULTS.txt, SEASONWINNER.txt oraz TEAM.txt; Widoki umożliwiające bardziej zaawansowane analizy danych; Zapytania SQL pozwalające na pobieranie konkretnych informacji z bazy danych;
 
-
-
-
-
-
-
 ####  Relacje bazy danych 
 Tabele:
 ATHLETS.txt - zawiera dane odnośnie zawodników, którzy brali udział w zawodach. Znajdują się takie informacje jak: Imię i nazwisko (Name_1), kraj który reprezentują (COUNTRY), Płeć (Gender) oraz kod zawodnika (FIS_CODE). Posiada klucz gówny - ID;
@@ -33,8 +27,18 @@ RESULTS.txt - zawiera dane odnośnie wyników w danej konkurencji (PLACE, NAME_1
 SEASONWINNER.txt - zawiera dane odnośnie nagród (PRIZE), które otrzymuję się na koniec każdego sezonu za miejsce w top3 (PLACE). Wskazują też w jakim sezonie zawodnik osiągnął daną nagrodę (SEASON). Posiada klucz gówny - ID oraz klucz obcy ID_ATHLETS;
 TEAM.txt - zawiera informację odnośnie narodowości(COUNTRY), którą dany zawodnik reprezentuję i należy. Posiada klucz gówny - ID oraz klucz obcy ID_ATHLETS;
 
-##### Cel projektu
+##### PROJECT OBJECTIVE / CEL PROJEKTU
+ENG 🇬🇧:
+The goal of this project is to enable analysis and understanding of sports performance in cross-country skiing.Views and queries allow quick and precise data search and report generation.
+
+
+POL 🇵🇱:
 Celem tego projektu jest umożliwienie analizy i zrozumienia wyników sportowych w biegach narciarskich.Widoki i zapytania pozwalają na szybkie i precyzyjne wyszukiwanie danych oraz generowanie raportów.
 
-###### Instrukcja użycie
+###### INSTRUCTIONS FOR USE / INSTRUKCJA UŻYCIA
+ENG 🇬🇧:
+Import all the tables into your database, then prepare views and SQL queries to get the information of interest from the database. Execute SQL queries to get the information you are interested in.
+
+
+POL 🇵🇱:
 Zaimportuj wszystkie tabele do swojej bazy danych, a następnie  przygotuj widoki i zapytania SQL, które pomogą Ci uzyskać interesujące informacje z bazy danych. Wykonuj zapytania SQL, aby uzyskiwać interesujące Cię informacje.
