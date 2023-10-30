@@ -46,3 +46,26 @@ JOIN AthleteVictories av ON av.COUNTRY = b.COUNTRY
 WHERE a.PLACE = 'FIRST' AND av.RANK = 1
 GROUP BY av.COUNTRY, av.NAME_1, av.VICTORIES
 
+-- Returns which athlete had the most victories in a type of distance
+CREATE VIEW  MostDistanceVictories AS
+WITH VictoriesOverDistance AS
+(
+  SELECT a.PLACE, a.NAME_1, b.TYPE_OF_COMPETITION, b.DISTANCE, COUNT(b.DISTANCE) AS SumOFWinnings
+  FROM RESULTS a
+  JOIN COMPETITION b ON a.ID_COMPETITION=b.ID
+  WHERE a.PLACE='FIRST' AND b.TYPE_OF_COMPETITION='PS' AND b.DISTANCE NOT LIKE '%T%' AND b.DISTANCE <> ' '
+  GROUP BY a.PLACE, a.NAME_1, b.TYPE_OF_COMPETITION, b.DISTANCE
+),
+
+RankOfVictories AS 
+(
+SELECT	NAME_1,
+		DISTANCE,
+		SumOFWinnings,
+		ROW_NUMBER() OVER (PARTITION BY DISTANCE ORDER BY SumOFWinnings DESC) AS Rank
+FROM VictoriesOverDistance
+)
+
+SELECT r.NAME_1, r.DISTANCE, r.SumOFWinnings
+FROM RankOfVictories r
+WHERE r.RANK BETWEEN 1 AND 3
