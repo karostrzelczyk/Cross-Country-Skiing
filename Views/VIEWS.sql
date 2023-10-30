@@ -46,7 +46,7 @@ JOIN AthleteVictories av ON av.COUNTRY = b.COUNTRY
 WHERE a.PLACE = 'FIRST' AND av.RANK = 1
 GROUP BY av.COUNTRY, av.NAME_1, av.VICTORIES
 
--- Returns which athlete had the most victories in a type of distance
+-- Returns which athlete had the most victories in a type of distance, TOP3
 CREATE VIEW  MostDistanceVictories AS
 WITH VictoriesOverDistance AS
 (
