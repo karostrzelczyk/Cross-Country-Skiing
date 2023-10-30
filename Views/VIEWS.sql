@@ -1,5 +1,5 @@
 --Returns the player who won the small crystal globes and shows how many times he won this award 
-CREATE VIEW  winner_smallcrystalglobes AS 
+CREATE VIEW  WinnerSmallCrystalGlobes AS 
 SELECT a.NAME_1, a.ID, b.PRIZE, COUNT(b.PLACE) AS winner
 FROM  dbo.ATHLETS AS a 
 LEFT OUTER JOIN dbo.SEASONWINNER AS b ON a.ID = b.ID_ATHLETS
@@ -7,7 +7,7 @@ WHERE  (b.PLACE = 'first') AND (b.PRIZE LIKE '%small%') AND (b.PRIZE NOT LIKE '%
 GROUP BY b.PRIZE, a.ID, a.NAME_1
 
 --Returns the player who won the large crystal globes and shows how many times he won this award 
-CREATE VIEW  winner_largecrystalglobes AS  
+CREATE VIEW  WinnerLargeCrystalGlobes AS  
 SELECT a.NAME_1, a.ID, b.PRIZE, COUNT(b.PLACE) AS winner
 FROM dbo.ATHLETS AS a 
 LEFT OUTER JOIN dbo.SEASONWINNER AS b ON a.ID = b.ID_ATHLETS
@@ -15,7 +15,7 @@ WHERE  (b.PLACE = 'first') AND (b.PRIZE LIKE '%large%')
 GROUP BY b.PRIZE, a.ID, a.NAME_1
   
 --Returns the player who won the spint small crystal globes and shows how many times he won this award 
-CREATE VIEW   winner_sprintcrystalglobes AS
+CREATE VIEW   WinnerSprintCrystalGlobes AS
 SELECT a.NAME_1, a.ID, b.PRIZE, COUNT(b.PLACE) AS winner
 FROM dbo.ATHLETS AS a 
 LEFT OUTER JOIN dbo.SEASONWINNER AS b ON a.ID = b.ID_ATHLETS
