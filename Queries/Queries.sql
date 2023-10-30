@@ -5,6 +5,15 @@ LEFT JOIN SEASONWINNER b ON a.ID = b.ID_ATHLETS
 WHERE b.PLACE='first'
 GROUP BY b.PRIZE, a.id, a.NAME_1
 ORDER BY b.PRIZE, winner desc
+
+-- Return players who have won at least 2 large crystal globe 
+SELECT a.NAME_1, a.ID, b.PRIZE, count(b.PLACE) as winner
+FROM ATHLETS a
+LEFT JOIN SEASONWINNER b ON a.ID = b.ID_ATHLETS
+WHERE b.PLACE='first'and b.PRIZE like'%large%'
+GROUP BY b.PRIZE, a.id, a.NAME_1
+HAVING COUNT(b.PLACE)>=2
+ORDER BY b.PRIZE, winner desc
     
 -- Returns an athlete who has won a gold medal in the Olympic Games and won a gold medal in the World Championships
 SELECT DISTINCT b.ID_ATHLETS, b.NAME_1, c.COUNTRY, c.FIS_CODE
