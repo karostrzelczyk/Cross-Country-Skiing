@@ -72,5 +72,16 @@ SELECT *
 FROM MostDistanceVictories
 ORDER BY [DISTANCE]
 
+--Returns information about the region from which the player is from, whether the player is from Scandinavia or another region. 
+SELECT a.NAME_1, b.PLACE, a.COUNTRY,
+CASE
+	WHEN a.COUNTRY = 'NOR' OR a.COUNTRY = 'SWE' OR a.COUNTRY = 'FIN' THEN 'SCANDINAVIA'
+    ELSE 'REST OF THE WORLD '
+END AS REGION
+FROM ATHLETS a
+JOIN RESULTS b ON a.ID=b.ID_ATHLETS
+JOIN TEAM C ON A.ID=C.ID_ATHLETS
+WHERE b.PLACE='FIRST' 
+ORDER BY REGION
 
 
