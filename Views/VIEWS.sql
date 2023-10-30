@@ -60,9 +60,9 @@ WITH VictoriesOverDistance AS
 RankOfVictories AS 
 (
 SELECT	NAME_1,
-		DISTANCE,
-		SumOFWinnings,
-		ROW_NUMBER() OVER (PARTITION BY DISTANCE ORDER BY SumOFWinnings DESC) AS Rank
+	DISTANCE,
+	SumOFWinnings,
+	ROW_NUMBER() OVER (PARTITION BY DISTANCE ORDER BY SumOFWinnings DESC) AS Rank
 FROM VictoriesOverDistance
 )
 
