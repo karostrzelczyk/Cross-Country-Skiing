@@ -58,5 +58,10 @@ WHERE c.TYPE_OF_COMPETITION='MS'
 GROUP BY a.PLACE, b.COUNTRY,c.TYPE_OF_COMPETITION
 ORDER BY a.PLACE ASC, TOTAL_VICTORIES DESC
 
+--Using the MostDistanceVictories views, returns which athlete had the most victories in a type of distance
+SELECT *
+FROM MostDistanceVictories
+ORDER BY [DISTANCE]
+
 
 
