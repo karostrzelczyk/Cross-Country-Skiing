@@ -28,14 +28,14 @@ WHERE  (a.TYPE_OF_COMPETITION = 'MS') AND (b.ID_ATHLETS IS NOT NULL) AND (b.PLAC
 
 -- Returns the players who won all the prizes (i.e., the large crystal globe, the small crystal globe, and the sprint small globe)
 SELECT wl.ID, wl.NAME_1
-FROM winner_largecrystalglobes wl
+FROM WinnerLargeCrystalGlobes wl
 WHERE EXISTS (
     SELECT *
-    FROM winner_sprintcrystalglobes ws
+    FROM WinnerSmallCrystalGlobes ws
     WHERE wl.ID = ws.ID AND wl.NAME_1 = ws.NAME_1
 ) AND EXISTS (
 SELECT *
-FROM winner_sprintcrystalglobes wss
+FROM WinnerSprintCrystalGlobes wss
 WHERE wl.ID = wss.ID AND wl.NAME_1 = wss.NAME_1);
 
 -- Returns how many players each country has
